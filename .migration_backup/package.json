@@ -6,15 +6,15 @@
   "dependencies": {
     "@nativescript/core": "~8.3.0",
     "@nativescript/theme": "~3.0.2",
+    "nativescript-dev-webpack": "^1.5.1-rc-2020-02-25-144616-01",
     "nativescript-oauth2": "^3.0.10",
     "nativescript-secure-storage": "^2.6.2",
     "nativescript-vue": "~2.9.0",
-    "nativescript-vue-navigator": "^1.2.0",
     "nativescript-webview-interface": "^1.4.4"
   },
   "devDependencies": {
     "@nativescript/android": "8.3.1",
-    "@nativescript/webpack": "~5.0.0",
+    "@nativescript/webpack": "~5.0.9",
     "nativescript-vue-template-compiler": "~2.9.0"
   }
 }

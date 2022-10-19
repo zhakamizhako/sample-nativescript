@@ -4,14 +4,11 @@
             <Label text="Home"/>
         </ActionBar>
 
-        <GridLayout>
-            <Label class="info">
-                <FormattedString>
-                    <Span class="fas" text.decode="&#xf135; "/>
-                    <Span :text="message"/>
-                </FormattedString>
-            </Label>
-        </GridLayout>
+        <StackLayout>
+            <Label>NativeScript Demo</Label>
+            <Button @tap="goPWA">PWA</Button>
+            <Button>Back</Button>
+        </StackLayout>
     </Page>
 </template>
 
@@ -21,6 +18,11 @@
       message() {
         return "Blank {N}-Vue app";
       }
+    },
+    methods:{
+        goPWA(){
+            this.$navigator.navigate("/pwa")
+        },
     }
   };
 </script>
